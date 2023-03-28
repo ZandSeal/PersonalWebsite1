@@ -601,7 +601,7 @@
   }
 
 
-  /* About Me Section*/
+  /* About Me Page*/
 
   .about{
     background-color: #141414;
@@ -613,7 +613,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 30vh;
+    height: 50vh;
     background-color: #141414;
     z-index: 1;
     width: 100%;
@@ -679,4 +679,12 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+
+.my__picture{
+  background-color: #141414;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
